@@ -9,7 +9,7 @@ declare function register(
     componentDefinition: FunctionComponent<any> | ComponentClass<any> | FunctionalComponent<any>,
     tagName?: string,
     observedAttributes?: string[],
-    options?: { shadow: boolean },
+    options?: { shadow: boolean, mode: string },
 ): void;
 
 export = register;
